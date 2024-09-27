@@ -1,0 +1,19 @@
+<p>calculatrice works!</p>
+
+<div>
+  <button (click)="generateRandomNumber1()">Générer un nombre aléatoire 1</button>
+  <button (click)="generateRandomNumber2()">Générer un nombre aléatoire 2</button>
+
+  <p>Nombre 1: {{ randomNumber1 }}</p>
+  <p>Nombre 2: {{ randomNumber2 }}</p>
+</div>
+
+
+<div>
+  <button (click)="performOperation('+')">+</button>
+  <button (click)="performOperation('-')">-</button>
+  <button (click)="performOperation('*')">*</button>
+  <button (click)="performOperation('/')">/</button>
+
+  <p>Résultat: {{ result }}</p>
+</div>
